@@ -61,7 +61,7 @@ theme_dk <- function(base_family = "Inter Tight", base_size = 14) {
       plot.margin = ggplot2::margin(10, 10, 10, 10),
       strip.text = ggplot2::element_text(
         color = "grey40",
-        hjust = 0,
+        # hjust = 0,
         size = ggplot2::rel(0.9)
       ),
       panel.spacing = ggplot2::unit(2, "lines")
